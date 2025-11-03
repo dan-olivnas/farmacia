@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import ListaCategorias from './components/categoria/listacategorias/ListaCategorias';
+import FormCategorias from './components/categoria/formcategorias/FormularioCategorias';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/categorias" element={<ListaCategorias />} />
+          <Route path="/editarcategorias/:id" element={<FormCategorias />} />
         </Routes>
       </div>
 
