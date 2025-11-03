@@ -13,11 +13,10 @@ function Home() {
           </div>
 
           <div className="flex justify-center">
-            <img
-              src="https://i.imgur.com/fyfri1v.png"
-              alt="Imagem Página Home"
-              className="w-2/3"
-            />
+          <img
+          src="/src/assets/unnamed.jpg"
+          alt="Imagem da farmácia"
+          className="w-2/3 rounded-lg"/>
           </div>
         </div>
       </div>
