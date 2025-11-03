@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import ListaCategorias from './components/categoria/listacategorias/ListaCategorias';
 import FormCategorias from './components/categoria/formcategorias/FormularioCategorias';
+import DeletarCategoria from './components/categoria/deletarcategoria/DeletarCategoria';
 
 function App() {
   return (
@@ -21,6 +21,8 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/categorias" element={<ListaCategorias />} />
           <Route path="/editarcategorias/:id" element={<FormCategorias />} />
+          <Route path="/deletarcategorias/:id" element={<DeletarCategoria />} />
+          <Route path="/criarcategoria" element={<FormCategorias />} />
         </Routes>
       </div>
 

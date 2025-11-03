@@ -13,6 +13,10 @@ function Navbar() {
             Categorias
           </Link>
 
+          <Link to="/criarcategoria" className="hover:underline">
+            Nova categoria
+          </Link>
+
           <Link to="/produtos" className="hover:underline transition duration-200">
             Produtos
           </Link>
