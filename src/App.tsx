@@ -4,9 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
-//import Categorias from './pages/categorias/Categorias';
 import Home from './pages/home/Home';
-//import Produtos from './pages/produtos/Produtos';
+import ListaCategorias from './components/categoria/listacategorias/ListaCategorias';
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          {/* Route path="/categorias" element={<Categorias />} />
-          <Route path="/produtos" element={<Produtos /> */}
+          <Route path="/categorias" element={<ListaCategorias />} />
         </Routes>
       </div>
 
