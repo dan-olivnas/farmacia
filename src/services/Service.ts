@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-function-type */
 import axios from 'axios';
 
 const api = axios.create({
